@@ -33,6 +33,7 @@ class PersianSimilarity:
         else:
             result = self._FastTextModel.wv.most_similar_cosmul(positive=positive_list, negative=negative_list,topn=topn)
 
-        result.sort(key=lambda tup: tup[1], reverse=True)
-        return result
+        output = sorted(result, key=lambda x: x[1])
+        output.reverse()
+        return output
 
