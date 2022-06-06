@@ -1,0 +1,1 @@
+from .PersianSimilarity import PersianSimilarity
