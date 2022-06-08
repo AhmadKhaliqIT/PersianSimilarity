@@ -1,4 +1,4 @@
-# Persian-Similarity
+# PersianSimilarity
 A simple, fast Python package which finds **Persian(Farsi)** words similarities.
 
 Target audience is the natural language processing (NLP) community.
